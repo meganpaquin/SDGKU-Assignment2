@@ -1,0 +1,68 @@
+ol{
+    list-style-type: upper-roman;
+    width: 80%;
+}
+
+ul{
+    list-style-type:none;
+}
+
+a:link{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header{
+    text-shadow: 2px 2px rgb(82, 82, 82);
+    border-bottom: 2px solid black;
+}
+header:hover{
+    color: red;  
+    border-bottom: 2px solid red;
+}
+
+.icons{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 0% 50% 0% 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: visible;
+    margin: 15px;
+    box-shadow: 10px 10px 15px 5px black;
+}
+
+.icons:hover{
+    padding:16px;
+    border: 2px solid black;
+    border-radius: 0% 50% 0% 50%;
+    width: 50px;
+    height: 50px;
+    overflow: visible;
+    box-shadow: 10px 10px 10px 5px blue;
+}
+
+.family{
+    width: 70%;
+    height: 70%;
+    border-radius: 5% 5% 5% 5%;
+    box-shadow: 10px 10px 10px 5px black;
+    text-align: right;
+    border: 2px black solid;
+}
